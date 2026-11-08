@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy disclosures for the personal-use Fukary Exchange Google Drive workflow.">
+  <title>Privacy Policy — Fukary Exchange</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; line-height: 1.65; background: #10151d; color: #e8edf3; }
+    body { max-width: 48rem; margin: auto; padding: 2rem 1.25rem 4rem; }
+    a { color: #99d9ee; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid #f2c879; outline-offset: 4px; }
+    h1, h2 { line-height: 1.2; } h1 { font-size: 2.3rem; }
+    footer { border-top: 1px solid #455365; margin-top: 2rem; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation"><a href="index.html">Fukary Exchange home</a></nav>
+    <h1>Fukary Exchange Privacy Policy</h1>
+    <p>Operator: Russt · Contact: <a href="mailto:dip20betervpa@gmail.com">dip20betervpa@gmail.com</a></p>
+    <p>Policy version: November 7, 2026. Effective upon publication.</p>
+  </header>
+  <main>
+    <h2>1. Scope and purpose</h2>
+    <p>Fukary Exchange is a personal-use, owner-operated workflow for exchanging approved requests, responses and receipts through Google Drive with participating AI assistants. It is not a public file-sharing or sign-up service. The current exchange is manual; no recurring exchange schedule is enabled.</p>
+    <p>This policy describes the local application and its exchange workflow. Google, the website host and participating AI services also handle data under their own policies and account settings.</p>
+
+    <h2>2. Google data accessed</h2>
+    <p>The local application requests only <code>https://www.googleapis.com/auth/drive.file</code>. This permits operations on files created by the application or specifically made available to it; it is not access to every file in the account. It is a read/write permission, not read-only access or a folder-only security boundary.</p>
+    <ul>
+      <li>Account email address, used to verify that the expected owner is connected.</li>
+      <li>Authorized exchange file and folder metadata, including identifiers, names, types, ownership, location and permission information.</li>
+      <li>Authorized file contents and comments, including request text, responses, comment author information and available timestamps.</li>
+      <li>Task identifiers, content hashes, acknowledgments and diagnostic records used to correlate messages and investigate failures.</li>
+    </ul>
+    <p>The workflow does not request Gmail, Calendar or unrestricted Drive permission. Other connected assistants have separate grants; the local application’s narrow scope does not constrain those other grants.</p>
+
+    <h2>3. How the data is used</h2>
+    <p>Data is used to deliver the owner-approved exchange, process its stated question, verify the connected account and file access, match replies to requests, preserve receipts and diagnose errors. The operator reviews authorized records and may retain them for continuity and troubleshooting.</p>
+    <p>Fukary Exchange does not sell Google user data or use it for advertising, credit decisions or training general-purpose AI models. Transfers are limited to providing the owner-authorized exchange, security purposes or legal obligations. Google user data must not be submitted to optional model-training or feedback programs.</p>
+    <p>Fukary Exchange’s use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its applicable Limited Use requirements. This commitment does not grant new access or authorize new recipients.</p>
+
+    <h2>4. AI processing and other services</h2>
+    <p>Google processes authentication and stores the Drive exchange. The owner’s local Hermes Agent environment processes authorized content and sends task context to its selected AI-service provider. The current local route uses OpenAI through Codex authentication. The tested collaboration also involved Bran through Grok Bot and its connected Drive service, operated through Cursor’s service environment.</p>
+    <p>Participating AI services may receive the actual approved request or response, not merely its filename or hash. Their conversation history, processing records and connected tools can retain additional copies. Provider selection can change; the operator must review the applicable policies and account controls before changing recipients or expanding shared content.</p>
+    <p>The owner has confirmed that OpenAI’s “Improve the model for everyone” setting is off for the account supplying the current local route. OpenAI documents that opting out excludes new personal-plan Codex tasks from model training; this does not mean zero retention. See <a href="https://help.openai.com/en/articles/7730893-data-control-faq">OpenAI’s data controls</a>.</p>
+    <p>Cursor’s <a href="https://cursor.com/privacy">Privacy Policy, section 7</a> states that Google Apps content obtained through Google OAuth is not used for its internal AI or other training. It also states that Grok Bot conversations, including Google data, are kept until the bot or account is deleted, with separate retention controls for teams. These are the provider’s published commitments, not an independent audit of its systems.</p>
+    <p>Exact retention periods for every processing or backup copy, storage regions and deletion propagation have not been independently verified. Other bots or integrations on a shared service account may have access under that account’s permissions. This workflow does not promise independently authenticated agent identities, agent-exclusive access, zero retention or end-to-end secrecy from service providers. A new provider or a changed data-sharing setting requires review before receiving exchange content.</p>
+
+    <h2>5. Storage and safeguards</h2>
+    <p>Exchange files and comments are stored in the owner’s Google Drive. Local exchange copies, metadata, receipts and session records are retained in the owner’s working files and can be included in the owner’s private GitHub backup. The public information site must contain only approved informational pages, never exchange records or credentials.</p>
+    <p>OAuth credentials are stored separately from the project repository with owner-restricted local file permissions. These permissions are not a claim of application-level encryption at rest. Credentials are not included in the public website or project Git backup. Authentication uses Google’s consent flow; the application does not ask the owner to give it a Google password.</p>
+    <p>The pilot’s Drive files were verified as owner-only at the time of the test. That finding does not establish isolation from other services already connected to the same Google account. Access must remain limited to the approved resources and purpose.</p>
+
+    <h2>6. Retention, revocation and deletion</h2>
+    <p>No automatic deletion period or deletion service is implemented. Exchange records and local receipts remain until the owner deliberately removes them; private backup and conversation history can retain older versions. A pilot’s permission expiry stops further authorized activity but does not delete existing records.</p>
+    <p>The owner can revoke the application’s Google Account connection to prevent further access under that grant. Revocation does not erase existing Drive files, local copies, backups or copies held by AI services. Deleting a Drive original alone does not delete all of those copies.</p>
+    <p>For access, correction or deletion requests, contact the operator at the address below. Requests are handled manually. Removal from local records, Drive, backup history and provider accounts requires separate steps; immediate erasure from provider backups is not guaranteed. Do not submit confidential information whose retention requirements cannot be met.</p>
+
+    <h2>7. Website visitors</h2>
+    <p>These informational pages contain no forms, sign-in controls, JavaScript, analytics, advertising, tracking pixels or remote fonts. They do not connect a visitor to Google Drive. When served by GitHub Pages, GitHub processes website requests, including visitor IP addresses for security, under its own privacy practices. Clicking an external link or sending email involves that destination’s service.</p>
+
+    <h2>8. Changes and contact</h2>
+    <p>Material changes to recipients, access, use or retention must be reflected in updated disclosures and obtain any required consent before the changed processing begins. Publication of this policy is not Google approval or verification of the application.</p>
+    <p>Support and privacy contact: <a href="mailto:dip20betervpa@gmail.com">dip20betervpa@gmail.com</a>. Do not send credentials, authorization codes or tokens.</p>
+  </main>
+  <footer><p><a href="index.html">Return to Fukary Exchange</a></p></footer>
+</body>
+</html>
